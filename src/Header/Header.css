@@ -1,0 +1,50 @@
+.HeadingText {
+    background: linear-gradient(to right, #EB568E, #144EE3);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 36px;
+    flex: 1;
+}
+
+.HeaderContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderBtnContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.HeaderLoginBtnContainer,.HeaderRegisterBtnContainer {
+    margin: 0 10px;
+}
+
+.HeaderLoginBtn {
+    background-color: #181E29 !important;
+    color: #ffffff !important;
+    border: 0.1px solid #C9CED6 !important;
+    border-radius: 25px !important;
+    padding: 10px 20px !important;
+    font-family: "Inter" !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
+.HeaderRegisterBtn {
+    background-color: #144EE3 !important;
+    color: #ffffff !important;
+    border-radius: 25px !important;
+    padding: 10px 20px !important;
+    font-family: "Inter" !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}

@@ -1,0 +1,58 @@
+.ShortenerContainer {
+    width: 100%;
+}
+
+.ShortenerBody {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ShortenerText {
+    text-align: center;
+    background: linear-gradient(to right,#144EE3 0%,  #EB568E 19%, #A353AA 64%, #A353AA 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.ShortenerDescription {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.ShortenerTextPaper,.ShortenerTextBox {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 30px !important;
+    display: flex;
+    flex-direction: row;
+    border: 0;
+}
+
+.ShortenerTextPaper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ShortenerTextFieldContainer {
+    padding: 30px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ShortenerTextBtn {
+    height: 100%;
+    width: 200px;
+    margin: 10px;
+    text-decoration: capitalize;
+    border-radius: 30px !important;
+}
